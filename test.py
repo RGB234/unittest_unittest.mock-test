@@ -2,6 +2,7 @@ import unittest
 from unittest.mock import Mock
 import swearing_filter as filter
 
+#unittest & unittest.mock test
 class test_filter(unittest.TestCase):
     # ^ㅣ, ^^ㅣ, 77ㅣ(특수문자 교체) / 시&발 시&&발(특수문자 삽입)
     test_text = "^ㅣ22발 ^^2%ㅣ발 ^^^ㅣ발 ^ㅐ77ㅣ ^^ㅐ끼 ㅅ&ㅂ ㅅ&&ㅂ"
